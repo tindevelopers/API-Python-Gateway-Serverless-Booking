@@ -6,8 +6,8 @@ and analyze blog content.
 """
 
 import asyncio
-from src.blog_writer_sdk import BlogWriter
-from src.blog_writer_sdk.models.blog_models import (
+from blog_writer_sdk import BlogWriter
+from blog_writer_sdk.models.blog_models import (
     BlogRequest,
     ContentTone,
     ContentLength,

@@ -1,0 +1,32 @@
+{
+  "name": "api-blog-writer-python-gcr",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A comprehensive Python SDK for AI-driven blog writing with advanced SEO optimization, built for modern web applications.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mcp-server": "node mcp-server.js",
+    "start-mcp": "node mcp-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tindevelopers/api-blog-writer-python-gcr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tindevelopers/api-blog-writer-python-gcr/issues"
+  },
+  "homepage": "https://github.com/tindevelopers/api-blog-writer-python-gcr#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.0",
+    "@modelcontextprotocol/server-filesystem": "^2025.8.21",
+    "google-cloud-mcp": "^0.1.3"
+  }
+}

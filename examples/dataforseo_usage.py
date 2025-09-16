@@ -6,7 +6,7 @@ to enhance keyword analysis and content strategy.
 """
 
 import asyncio
-from src.blog_writer_sdk.integrations.dataforseo_integration import (
+from blog_writer_sdk.integrations.dataforseo_integration import (
     DataForSEOClient,
     EnhancedKeywordAnalyzer
 )

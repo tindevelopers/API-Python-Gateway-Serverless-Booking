@@ -3,8 +3,8 @@ Tests for the main BlogWriter class.
 """
 
 import pytest
-from src.blog_writer_sdk import BlogWriter
-from src.blog_writer_sdk.models.blog_models import (
+from blog_writer_sdk import BlogWriter
+from blog_writer_sdk.models.blog_models import (
     BlogRequest,
     ContentTone,
     ContentLength,

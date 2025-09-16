@@ -9,14 +9,14 @@ import asyncio
 import os
 from dotenv import load_dotenv
 
-from src.blog_writer_sdk import BlogWriter
-from src.blog_writer_sdk.models.blog_models import (
+from blog_writer_sdk import BlogWriter
+from blog_writer_sdk.models.blog_models import (
     BlogRequest, 
     ContentTone, 
     ContentLength,
     ContentFormat
 )
-from src.blog_writer_sdk.ai.ai_content_generator import AIContentGenerator, ContentTemplate
+from blog_writer_sdk.ai.ai_content_generator import AIContentGenerator, ContentTemplate
 
 # Load environment variables
 load_dotenv()

@@ -3,8 +3,8 @@ Tests for the SEO optimizer module.
 """
 
 import pytest
-from src.blog_writer_sdk.core.seo_optimizer import SEOOptimizer
-from src.blog_writer_sdk.models.blog_models import MetaTags
+from blog_writer_sdk.core.seo_optimizer import SEOOptimizer
+from blog_writer_sdk.models.blog_models import MetaTags
 
 
 class TestSEOOptimizer:

@@ -1,0 +1,23 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "mcp.servers": {
+      "google-cloud-mcp": {
+        "command": "node",
+        "args": [
+          "./node_modules/google-cloud-mcp/dist/index.js"
+        ],
+        "cwd": ".",
+        "env": {
+          "GOOGLE_APPLICATION_CREDENTIALS": "/Users/gene/.config/gcloud/application_default_credentials.json",
+          "GOOGLE_CLOUD_PROJECT": "sdk-ai-blog-writer",
+          "GOOGLE_CLOUD_REGION": "us-central1"
+        }
+      }
+    }
+  }
+}

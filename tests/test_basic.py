@@ -1,7 +1,7 @@
 """Basic tests for the BlogWriter SDK."""
 
 import pytest
-from src.blog_writer_sdk.models.blog_models import BlogRequest, ContentTone, ContentLength
+from blog_writer_sdk.models.blog_models import BlogRequest, ContentTone, ContentLength
 
 
 def test_blog_request_creation():
@@ -49,9 +49,9 @@ def test_blog_request_validation():
 
 def test_imports():
     """Test that main modules can be imported without errors."""
-    from src.blog_writer_sdk import BlogWriter
-    from src.blog_writer_sdk.core.content_generator import ContentGenerator
-    from src.blog_writer_sdk.seo.keyword_analyzer import KeywordAnalyzer
+    from blog_writer_sdk import BlogWriter
+    from blog_writer_sdk.core.content_generator import ContentGenerator
+    from blog_writer_sdk.seo.keyword_analyzer import KeywordAnalyzer
     
     # Test that classes can be instantiated
     writer = BlogWriter()
